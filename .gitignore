@@ -1,0 +1,9 @@
+*.tar.gz
+**/containers/files/
+**/overlayfs/
+**/node_modules/
+zbx-poc-audit-2026-08-14_132517/zbx-poc-audit/containers/files/
+**/*.log
+**/*.log.*
+**/*.log-*
+**/logs/

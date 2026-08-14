@@ -1,0 +1,238 @@
+[
+    {
+        "Id": "c9d29eeca63ceb52481e014f8d321b7ec56c9d431066d795395d5760158f8a21",
+        "Created": "2026-03-30T18:30:59.547360934Z",
+        "Path": "/vsphere-graphite",
+        "Args": [],
+        "State": {
+            "Status": "restarting",
+            "Running": true,
+            "Paused": false,
+            "Restarting": true,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 1,
+            "Error": "",
+            "StartedAt": "2026-08-14T19:24:42.945604772Z",
+            "FinishedAt": "2026-08-14T19:24:43.668486323Z"
+        },
+        "Image": "sha256:bdb663ea02958d663e28988d33f1162c5733d93bf16ed0130c94bf3f8d70b7a9",
+        "ResolvConfPath": "/data_siap/docker-engine/containers/c9d29eeca63ceb52481e014f8d321b7ec56c9d431066d795395d5760158f8a21/resolv.conf",
+        "HostnamePath": "/data_siap/docker-engine/containers/c9d29eeca63ceb52481e014f8d321b7ec56c9d431066d795395d5760158f8a21/hostname",
+        "HostsPath": "/data_siap/docker-engine/containers/c9d29eeca63ceb52481e014f8d321b7ec56c9d431066d795395d5760158f8a21/hosts",
+        "LogPath": "/data_siap/docker-engine/containers/c9d29eeca63ceb52481e014f8d321b7ec56c9d431066d795395d5760158f8a21/c9d29eeca63ceb52481e014f8d321b7ec56c9d431066d795395d5760158f8a21-json.log",
+        "Name": "/cblomart_siap",
+        "RestartCount": 25,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/data_siap/docker/vsphere_exporter/vsphere-graphite.json:/vsphere-graphite.json"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "watchtower_default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                36,
+                104
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle",
+                "/sys/devices/system/cpu/cpu4/thermal_throttle",
+                "/sys/devices/system/cpu/cpu5/thermal_throttle",
+                "/sys/devices/system/cpu/cpu6/thermal_throttle",
+                "/sys/devices/system/cpu/cpu7/thermal_throttle",
+                "/sys/devices/system/cpu/cpu8/thermal_throttle",
+                "/sys/devices/system/cpu/cpu9/thermal_throttle",
+                "/sys/devices/system/cpu/cpu10/thermal_throttle",
+                "/sys/devices/system/cpu/cpu11/thermal_throttle",
+                "/sys/devices/system/cpu/cpu12/thermal_throttle",
+                "/sys/devices/system/cpu/cpu13/thermal_throttle",
+                "/sys/devices/system/cpu/cpu14/thermal_throttle",
+                "/sys/devices/system/cpu/cpu15/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "8818a77da7fa803ac0776378b103901a4dd81bc2db077f1c62c996f021513f7b",
+                "Source": "/data_siap/docker-engine/volumes/8818a77da7fa803ac0776378b103901a4dd81bc2db077f1c62c996f021513f7b/_data",
+                "Destination": "/etc",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "bind",
+                "Source": "/data_siap/docker/vsphere_exporter/vsphere-graphite.json",
+                "Destination": "/vsphere-graphite.json",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "c9d29eeca63c",
+            "Domainname": "",
+            "User": "vsphere-graphite-user",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": null,
+            "Image": "cblomart/vsphere-graphite:latest",
+            "Volumes": {
+                "/etc": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/vsphere-graphite"
+            ],
+            "Labels": {
+                "maintainer": "cblomart@gmail.com",
+                "org.opencontainers.image.created": "2021-12-24T09:04:11Z",
+                "org.opencontainers.image.revision": "60b81271db2341344ce1f03da4dd98ed56789d1d",
+                "org.opencontainers.image.source": "https://github.com/cblomart/vsphere-graphite.git",
+                "org.opencontainers.image.url": "https://github.com/cblomart/vsphere-graphite"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "",
+            "SandboxKey": "",
+            "Ports": {},
+            "Networks": {
+                "watchtower_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "85f0fb3abb4f16fbb4f0081b8ae0028fb5d49d1daa80039de91cbed7e9635645",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "MacAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "cblomart_siap",
+                        "c9d29eeca63c"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:bdb663ea02958d663e28988d33f1162c5733d93bf16ed0130c94bf3f8d70b7a9",
+            "size": 1152,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

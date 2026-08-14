@@ -1,0 +1,241 @@
+[
+    {
+        "Id": "3054f2d14a28d7d2ea73f715b69e90fa07797ad9a50eee4bb7152233c5e63f5d",
+        "Created": "2026-03-13T19:26:39.983185246Z",
+        "Path": "/usr/local/bin/vmware_exporter",
+        "Args": [
+            "-p",
+            "9273"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 7181,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-08-14T19:11:34.880628756Z",
+            "FinishedAt": "2026-08-14T19:06:42.445644768Z"
+        },
+        "Image": "sha256:79925e63e59ffe962762697da3c9f14bc1c132e0b0ca873f75d0e2cadaff361e",
+        "ResolvConfPath": "/data_siap/docker-engine/containers/3054f2d14a28d7d2ea73f715b69e90fa07797ad9a50eee4bb7152233c5e63f5d/resolv.conf",
+        "HostnamePath": "/data_siap/docker-engine/containers/3054f2d14a28d7d2ea73f715b69e90fa07797ad9a50eee4bb7152233c5e63f5d/hostname",
+        "HostsPath": "/data_siap/docker-engine/containers/3054f2d14a28d7d2ea73f715b69e90fa07797ad9a50eee4bb7152233c5e63f5d/hosts",
+        "LogPath": "/data_siap/docker-engine/containers/3054f2d14a28d7d2ea73f715b69e90fa07797ad9a50eee4bb7152233c5e63f5d/3054f2d14a28d7d2ea73f715b69e90fa07797ad9a50eee4bb7152233c5e63f5d-json.log",
+        "Name": "/pryorda_siap",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "host",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle",
+                "/sys/devices/system/cpu/cpu4/thermal_throttle",
+                "/sys/devices/system/cpu/cpu5/thermal_throttle",
+                "/sys/devices/system/cpu/cpu6/thermal_throttle",
+                "/sys/devices/system/cpu/cpu7/thermal_throttle",
+                "/sys/devices/system/cpu/cpu8/thermal_throttle",
+                "/sys/devices/system/cpu/cpu9/thermal_throttle",
+                "/sys/devices/system/cpu/cpu10/thermal_throttle",
+                "/sys/devices/system/cpu/cpu11/thermal_throttle",
+                "/sys/devices/system/cpu/cpu12/thermal_throttle",
+                "/sys/devices/system/cpu/cpu13/thermal_throttle",
+                "/sys/devices/system/cpu/cpu14/thermal_throttle",
+                "/sys/devices/system/cpu/cpu15/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "zabbix",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "9272/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "VSPHERE_HOST=10.255.129.20",
+                "VSPHERE_IGNORE_SSL=True",
+                "VSPHERE_USER=readonly@vmwgap.net",
+                "VSPHERE_PASSWORD=A3r0g@p7",
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=0D96DF4D4110E5C43FBFB17F2D347EA6AA65421D",
+                "PYTHON_VERSION=3.7.14",
+                "PYTHON_PIP_VERSION=22.0.4",
+                "PYTHON_SETUPTOOLS_VERSION=57.5.0",
+                "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/5eaac1050023df1f5c98b173b248c260023f2278/public/get-pip.py",
+                "PYTHON_GET_PIP_SHA256=5aefe6ade911d997af080b315ebcb7f882212d070465df544e1175ac2be519b4",
+                "PYTHONUNBUFFERED=1"
+            ],
+            "Cmd": [
+                "-p",
+                "9273"
+            ],
+            "Image": "pryorda/vmware_exporter:latest",
+            "Volumes": {},
+            "WorkingDir": "/opt/vmware_exporter/",
+            "Entrypoint": [
+                "/usr/local/bin/vmware_exporter"
+            ],
+            "Labels": {
+                "MAINTAINER": "Daniel Pryor <daniel@pryorda.net>",
+                "NAME": "vmware_exporter",
+                "com.docker.compose.config-hash": "79383b94f9c6cb68736e68b11155d0f22d162f78d762ab9213dc40f23096bc78",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:79925e63e59ffe962762697da3c9f14bc1c132e0b0ca873f75d0e2cadaff361e",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "vsphere_exporter",
+                "com.docker.compose.project.config_files": "/data_siap/docker/vsphere_exporter/docker-compose.yaml",
+                "com.docker.compose.project.working_dir": "/data_siap/docker/vsphere_exporter",
+                "com.docker.compose.service": "pryorda_siap",
+                "com.docker.compose.version": "5.1.0",
+                "io.buildah.version": "1.22.3"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "677198f849e1610af15bddb19cce7aebaf18e5e6207eb5fdcafb02bf95b7b305",
+            "SandboxKey": "/var/run/docker/netns/default",
+            "Ports": {},
+            "Networks": {
+                "host": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "dcae96890d88f967ffc1c2e1a77ddc974b021cd344c34f9dd954f5c74d370620",
+                    "EndpointID": "0898fd2e3e92f20db5a1894f88044a01781f1e88b0de54e6ffbb6d05e0d0e22d",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "MacAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:79925e63e59ffe962762697da3c9f14bc1c132e0b0ca873f75d0e2cadaff361e",
+            "size": 1245,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

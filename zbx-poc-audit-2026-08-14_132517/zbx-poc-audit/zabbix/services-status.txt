@@ -1,0 +1,190 @@
+● zabbix-server.service - Zabbix Server
+     Loaded: loaded (/usr/lib/systemd/system/zabbix-server.service; enabled; preset: disabled)
+     Active: active (running) since Fri 2026-08-14 13:11:31 CST; 13min ago
+   Main PID: 4897 (zabbix_server)
+      Tasks: 120 (limit: 3355442)
+     Memory: 971.1M (peak: 1.1G)
+        CPU: 2min 6.663s
+     CGroup: /system.slice/zabbix-server.service
+             ├─ 4897 /usr/sbin/zabbix_server -c /etc/zabbix/zabbix_server.conf
+             ├─ 6674 "/usr/sbin/zabbix_server: ha manager"
+             ├─ 7614 "/usr/sbin/zabbix_server: service manager #1 [processed 0 events, updated 0 event tags, deleted 0 problems, synced 0 service updates, idle 5.004863 sec during 5.004936 sec]"
+             ├─ 7616 "/usr/sbin/zabbix_server: configuration syncer [synced configuration in 0.139139 sec, idle 10 sec]"
+             ├─11033 "/usr/sbin/zabbix_server: alert manager #1 [sent 0, failed 0 alerts, idle 5.005944 sec during 5.006100 sec]"
+             ├─11036 "/usr/sbin/zabbix_server: alerter #1 started"
+             ├─11037 "/usr/sbin/zabbix_server: alerter #2 started"
+             ├─11038 "/usr/sbin/zabbix_server: alerter #3 started"
+             ├─11040 "/usr/sbin/zabbix_server: preprocessing manager #1 [queued 30, processed 3040 values, idle 5.469028 sec during 5.593429 sec]"
+             ├─11041 "/usr/sbin/zabbix_server: lld manager #1 [processed 6 LLD rules, idle 5.142732sec during 5.143011 sec]"
+             ├─11042 "/usr/sbin/zabbix_server: lld worker #1 [processed 9 LLD rules, idle 13.842344 sec during 14.093974 sec]"
+             ├─11043 "/usr/sbin/zabbix_server: lld worker #2 [processed 1 LLD rules, idle 7.177190 sec during 7.198128 sec]"
+             ├─11045 "/usr/sbin/zabbix_server: housekeeper [startup idle for 30 minutes]"
+             ├─11048 "/usr/sbin/zabbix_server: timer #1 [updated 0 hosts, suppressed 0 events in 0.001038 sec, idle 59 sec]"
+             ├─11051 "/usr/sbin/zabbix_server: http poller #1 [got 0 values in 0.000022 sec, idle 5 sec]"
+             ├─11053 "/usr/sbin/zabbix_server: browser poller #1 [got 0 values in 0.000043 sec, idle 5 sec]"
+             ├─11055 "/usr/sbin/zabbix_server: discovery manager #1 [processing 0 rules, 0 unsaved checks]"
+             ├─11058 "/usr/sbin/zabbix_server: history syncer #1 [processed 0 values, 0 triggers in 0.000051 sec, idle 1 sec]"
+             ├─11060 "/usr/sbin/zabbix_server: history syncer #2 [processed 11 values, 11 triggers in 0.001690 sec, idle 1 sec]"
+             ├─11061 "/usr/sbin/zabbix_server: history syncer #3 [processed 0 values, 1 triggers in 0.000438 sec, idle 1 sec]"
+             ├─11062 "/usr/sbin/zabbix_server: history syncer #4 [processed 4 values, 5 triggers in 0.002453 sec, idle 1 sec]"
+             ├─11064 "/usr/sbin/zabbix_server: escalator #1 [processed 0 escalations in 0.001292 sec, idle 3 sec]"
+             ├─11068 "/usr/sbin/zabbix_server: proxy poller #1 [exchanged data with 0 proxies in 0.000022 sec, idle 5 sec]"
+             ├─11070 "/usr/sbin/zabbix_server: self-monitoring [processed data in 0.000020 sec, idle 1 sec]"
+             ├─11072 "/usr/sbin/zabbix_server: task manager [processed 0 task(s) in 0.000495 sec, idle 5 sec]"
+             ├─11073 "/usr/sbin/zabbix_server: poller #1 [got 5 values in 0.002411 sec, idle 2 sec]"
+             ├─11074 "/usr/sbin/zabbix_server: poller #2 [got 0 values in 0.000022 sec, idle 2 sec]"
+             ├─11075 "/usr/sbin/zabbix_server: poller #3 [got 0 values in 0.000029 sec, idle 2 sec]"
+             ├─11078 "/usr/sbin/zabbix_server: poller #4 [got 0 values in 0.000020 sec, idle 2 sec]"
+             ├─11081 "/usr/sbin/zabbix_server: poller #5 [got 0 values in 0.000023 sec, idle 2 sec]"
+             ├─11082 "/usr/sbin/zabbix_server: unreachable poller #1 [got 0 values in 0.000028 sec, idle 5 sec]"
+             ├─11083 "/usr/sbin/zabbix_server: trapper #1 [processed data in 0.000233 sec, waiting for connection]"
+             ├─11084 "/usr/sbin/zabbix_server: trapper #2 [processed data in 0.000213 sec, waiting for connection]"
+             ├─11086 "/usr/sbin/zabbix_server: trapper #3 [processed data in 0.000198 sec, waiting for connection]"
+             ├─11087 "/usr/sbin/zabbix_server: trapper #4 [processed data in 0.000233 sec, waiting for connection]"
+             ├─11089 "/usr/sbin/zabbix_server: trapper #5 [processed data in 0.000224 sec, waiting for connection]"
+             ├─11090 "/usr/sbin/zabbix_server: icmp pinger #1 [got 0 values in 0.000015 sec, idle 1 sec]"
+             ├─11096 "/usr/sbin/zabbix_server: icmp pinger #2 [got 0 values in 0.000012 sec, idle 1 sec]"
+             ├─11097 "/usr/sbin/zabbix_server: icmp pinger #3 [got 0 values in 0.000015 sec, idle 1 sec]"
+             ├─11099 "/usr/sbin/zabbix_server: icmp pinger #4 [got 0 values in 0.000015 sec, idle 1 sec]"
+             ├─11101 "/usr/sbin/zabbix_server: icmp pinger #5 [got 0 values in 0.000014 sec, idle 1 sec]"
+             ├─11103 "/usr/sbin/zabbix_server: icmp pinger #6 [got 0 values in 0.000021 sec, idle 1 sec]"
+             ├─11107 "/usr/sbin/zabbix_server: icmp pinger #7 [got 0 values in 0.000014 sec, idle 1 sec]"
+             ├─11109 "/usr/sbin/zabbix_server: icmp pinger #8 [got 0 values in 0.000010 sec, idle 1 sec]"
+             ├─11112 "/usr/sbin/zabbix_server: icmp pinger #9 [got 0 values in 0.000018 sec, idle 1 sec]"
+             ├─11114 "/usr/sbin/zabbix_server: icmp pinger #10 [got 0 values in 0.000019 sec, idle 1 sec]"
+             ├─11116 "/usr/sbin/zabbix_server: icmp pinger #11 [got 0 values in 0.000012 sec, idle 1 sec]"
+             ├─11119 "/usr/sbin/zabbix_server: icmp pinger #12 [got 0 values in 0.000010 sec, idle 1 sec]"
+             ├─11121 "/usr/sbin/zabbix_server: icmp pinger #13 [got 0 values in 0.000019 sec, idle 1 sec]"
+             ├─11122 "/usr/sbin/zabbix_server: icmp pinger #14 [got 0 values in 0.000021 sec, idle 1 sec]"
+             ├─11124 "/usr/sbin/zabbix_server: icmp pinger #15 [got 0 values in 0.000010 sec, idle 1 sec]"
+             ├─11126 "/usr/sbin/zabbix_server: icmp pinger #16 [got 9 values in 3.008610 sec, idle 1 sec]"
+             ├─11127 "/usr/sbin/zabbix_server: icmp pinger #17 [got 0 values in 0.000008 sec, idle 1 sec]"
+             ├─11128 "/usr/sbin/zabbix_server: icmp pinger #18 [got 0 values in 0.000017 sec, idle 1 sec]"
+             ├─11129 "/usr/sbin/zabbix_server: icmp pinger #19 [got 0 values in 0.000009 sec, idle 1 sec]"
+             ├─11130 "/usr/sbin/zabbix_server: icmp pinger #20 [got 0 values in 0.000016 sec, idle 1 sec]"
+             ├─11133 "/usr/sbin/zabbix_server: icmp pinger #21 [got 0 values in 0.000017 sec, idle 1 sec]"
+             ├─11135 "/usr/sbin/zabbix_server: icmp pinger #22 [got 0 values in 0.000016 sec, idle 1 sec]"
+             ├─11136 "/usr/sbin/zabbix_server: icmp pinger #23 [got 0 values in 0.000028 sec, idle 1 sec]"
+             ├─11137 "/usr/sbin/zabbix_server: icmp pinger #24 [got 0 values in 0.000021 sec, idle 1 sec]"
+             ├─11138 "/usr/sbin/zabbix_server: icmp pinger #25 [got 0 values in 0.000019 sec, idle 1 sec]"
+             ├─11141 "/usr/sbin/zabbix_server: icmp pinger #26 [pinging hosts]"
+             ├─11144 "/usr/sbin/zabbix_server: icmp pinger #27 [got 0 values in 0.000015 sec, idle 1 sec]"
+             ├─11146 "/usr/sbin/zabbix_server: icmp pinger #28 [got 0 values in 0.000015 sec, idle 1 sec]"
+             ├─11147 "/usr/sbin/zabbix_server: icmp pinger #29 [got 0 values in 0.000010 sec, idle 1 sec]"
+             ├─11149 "/usr/sbin/zabbix_server: icmp pinger #30 [got 0 values in 0.000015 sec, idle 1 sec]"
+             ├─11152 "/usr/sbin/zabbix_server: icmp pinger #31 [got 0 values in 0.000017 sec, idle 1 sec]"
+             ├─11156 "/usr/sbin/zabbix_server: icmp pinger #32 [got 0 values in 0.000015 sec, idle 1 sec]"
+             ├─11157 "/usr/sbin/zabbix_server: icmp pinger #33 [got 0 values in 0.000015 sec, idle 1 sec]"
+             ├─11163 "/usr/sbin/zabbix_server: icmp pinger #34 [got 0 values in 0.000022 sec, idle 1 sec]"
+             ├─11164 "/usr/sbin/zabbix_server: icmp pinger #35 [got 0 values in 0.000017 sec, idle 1 sec]"
+             ├─11165 "/usr/sbin/zabbix_server: icmp pinger #36 [pinging hosts]"
+             ├─11167 "/usr/sbin/zabbix_server: icmp pinger #37 [got 0 values in 0.000018 sec, idle 1 sec]"
+             ├─11169 "/usr/sbin/zabbix_server: icmp pinger #38 [got 0 values in 0.000018 sec, idle 1 sec]"
+             ├─11170 "/usr/sbin/zabbix_server: icmp pinger #39 [got 0 values in 0.000010 sec, idle 1 sec]"
+             ├─11171 "/usr/sbin/zabbix_server: icmp pinger #40 [got 0 values in 0.000017 sec, idle 1 sec]"
+             ├─11172 "/usr/sbin/zabbix_server: alert syncer [queued 0 alerts(s), flushed 0 result(s) in 0.000001 sec, idle 1 sec]"
+             ├─11175 "/usr/sbin/zabbix_server: history poller #1 [got 0 values in 0.000025 sec, idle 1 sec]"
+             ├─11176 "/usr/sbin/zabbix_server: history poller #2 [got 1 values in 0.000108 sec, idle 1 sec]"
+             ├─11177 "/usr/sbin/zabbix_server: history poller #3 [got 1 values in 0.000108 sec, idle 1 sec]"
+             ├─11178 "/usr/sbin/zabbix_server: history poller #4 [got 0 values in 0.000021 sec, idle 1 sec]"
+             ├─11181 "/usr/sbin/zabbix_server: history poller #5 [got 0 values in 0.000018 sec, idle 1 sec]"
+             ├─11182 "/usr/sbin/zabbix_server: availability manager #1 [queued 5, processed 186 values, idle 4.982552 sec during 5.000580 sec]"
+             ├─11183 "/usr/sbin/zabbix_server: trigger housekeeper [deleted 0 problems records in 0.005150 sec, idle for 60 second(s)]"
+             ├─11184 "/usr/sbin/zabbix_server: odbc poller #1 [got 0 values in 0.000013 sec, idle 5 sec]"
+             ├─11185 "/usr/sbin/zabbix_server: http agent poller #1 [got 0 values, queued 0 in 5 sec, awaiting 0]"
+             ├─11188 "/usr/sbin/zabbix_server: agent poller #1 [got 9 values, queued 9 in 5 sec, awaiting 0]"
+             ├─11191 "/usr/sbin/zabbix_server: snmp poller #1 [got 29 values, queued 24 in 5 sec, awaiting 0]"
+             ├─11192 "/usr/sbin/zabbix_server: configuration syncer worker [synced 0, updated 0 item names in 0.001363 sec, idle]"
+             ├─11194 "/usr/sbin/zabbix_server: internal poller #1 [got 3 values in 0.000383 sec, idle 1 sec]"
+             ├─11195 "/usr/sbin/zabbix_server: proxy group manager #1 started"
+             ├─28023 sh -c "/usr/sbin/fping -C3 -i0 2>&1 </tmp/zabbix_server_icmppinger_11165.pinger;"
+             ├─28024 /usr/sbin/fping -C3 -i0
+             ├─28037 sh -c "/usr/sbin/fping -C3 -i0 2>&1 </tmp/zabbix_server_icmppinger_11141.pinger;"
+             └─28038 /usr/sbin/fping -C3 -i0
+
+Aug 14 13:11:30 zabbixsiap systemd[1]: Starting Zabbix Server...
+Aug 14 13:11:31 zabbixsiap systemd[1]: Started Zabbix Server.
+
+● zabbix-agent2.service - Zabbix Agent 2
+     Loaded: loaded (/usr/lib/systemd/system/zabbix-agent2.service; enabled; preset: disabled)
+     Active: active (running) since Fri 2026-08-14 13:11:22 CST; 13min ago
+   Main PID: 3149 (zabbix_agent2)
+      Tasks: 22 (limit: 3355442)
+     Memory: 43.0M (peak: 47.1M)
+        CPU: 3.726s
+     CGroup: /system.slice/zabbix-agent2.service
+             └─3149 /usr/sbin/zabbix_agent2 -c /etc/zabbix/zabbix_agent2.conf
+
+Aug 14 13:11:21 zabbixsiap systemd[1]: Starting Zabbix Agent 2...
+Aug 14 13:11:21 zabbixsiap zabbix_agent2[2779]: Validating configuration file "/etc/zabbix/zabbix_agent2.conf"
+Aug 14 13:11:22 zabbixsiap zabbix_agent2[2779]: Validation successful
+Aug 14 13:11:22 zabbixsiap systemd[1]: Started Zabbix Agent 2.
+Aug 14 13:11:22 zabbixsiap zabbix_agent2[3149]: Starting Zabbix Agent 2 (7.0.29)
+Aug 14 13:11:22 zabbixsiap zabbix_agent2[3149]: Zabbix Agent2 hostname: [Zabbix server]
+Aug 14 13:11:22 zabbixsiap zabbix_agent2[3149]: Press Ctrl+C to exit.
+
+○ httpd.service - The Apache HTTP Server
+     Loaded: loaded (/usr/lib/systemd/system/httpd.service; disabled; preset: disabled)
+    Drop-In: /usr/lib/systemd/system/httpd.service.d
+             └─php-fpm.conf
+     Active: inactive (dead)
+       Docs: man:httpd.service(8)
+
+● nginx.service - The nginx HTTP and reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: disabled)
+    Drop-In: /usr/lib/systemd/system/nginx.service.d
+             └─php-fpm.conf
+     Active: active (running) since Fri 2026-08-14 13:11:27 CST; 13min ago
+   Main PID: 3497 (nginx)
+      Tasks: 17 (limit: 3355442)
+     Memory: 15.3M (peak: 16.4M)
+        CPU: 58ms
+     CGroup: /system.slice/nginx.service
+             ├─3497 "nginx: master process /usr/sbin/nginx"
+             ├─3498 "nginx: worker process"
+             ├─3499 "nginx: worker process"
+             ├─3500 "nginx: worker process"
+             ├─3501 "nginx: worker process"
+             ├─3502 "nginx: worker process"
+             ├─3503 "nginx: worker process"
+             ├─3504 "nginx: worker process"
+             ├─3505 "nginx: worker process"
+             ├─3506 "nginx: worker process"
+             ├─3507 "nginx: worker process"
+             ├─3508 "nginx: worker process"
+             ├─3509 "nginx: worker process"
+             ├─3510 "nginx: worker process"
+             ├─3511 "nginx: worker process"
+             ├─3512 "nginx: worker process"
+             └─3513 "nginx: worker process"
+
+Aug 14 13:11:27 zabbixsiap systemd[1]: Starting The nginx HTTP and reverse proxy server...
+Aug 14 13:11:27 zabbixsiap nginx[3347]: nginx: [warn] conflicting server name "_" on 0.0.0.0:8080, ignored
+Aug 14 13:11:27 zabbixsiap nginx[3347]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+Aug 14 13:11:27 zabbixsiap nginx[3347]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Aug 14 13:11:27 zabbixsiap nginx[3493]: nginx: [warn] conflicting server name "_" on 0.0.0.0:8080, ignored
+Aug 14 13:11:27 zabbixsiap systemd[1]: Started The nginx HTTP and reverse proxy server.
+
+● php-fpm.service - The PHP FastCGI Process Manager
+     Loaded: loaded (/usr/lib/systemd/system/php-fpm.service; enabled; preset: disabled)
+     Active: active (running) since Fri 2026-08-14 13:11:21 CST; 13min ago
+   Main PID: 2764 (php-fpm)
+     Status: "Processes active: 0, idle: 10, Requests: 0, slow: 0, Traffic: 0req/sec"
+      Tasks: 11 (limit: 3355442)
+     Memory: 26.0M (peak: 26.7M)
+        CPU: 117ms
+     CGroup: /system.slice/php-fpm.service
+             ├─2764 "php-fpm: master process (/etc/php-fpm.conf)"
+             ├─2839 "php-fpm: pool www"
+             ├─2840 "php-fpm: pool www"
+             ├─2841 "php-fpm: pool www"
+             ├─2842 "php-fpm: pool www"
+             ├─2843 "php-fpm: pool www"
+             ├─2844 "php-fpm: pool zabbix"
+             ├─2845 "php-fpm: pool zabbix"
+             ├─2846 "php-fpm: pool zabbix"
+             ├─2847 "php-fpm: pool zabbix"
+             └─2848 "php-fpm: pool zabbix"
+
+Aug 14 13:11:21 zabbixsiap systemd[1]: Starting The PHP FastCGI Process Manager...
+Aug 14 13:11:21 zabbixsiap systemd[1]: Started The PHP FastCGI Process Manager.

@@ -1,0 +1,254 @@
+[
+    {
+        "Id": "4e8e3b8c0254361797e7b61250aba88b2ab1f8a27e52c315e0c2c0f39b6f8f4a",
+        "Created": "2026-08-13T06:53:53.463338761Z",
+        "Path": "/portainer",
+        "Args": [],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 7370,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-08-14T19:11:35.139972906Z",
+            "FinishedAt": "2026-08-14T19:06:42.258024225Z"
+        },
+        "Image": "sha256:00c8114f44e240b4aa14429d365c1fb05cf7cd163ab0601c084c7af6ce8d58e2",
+        "ResolvConfPath": "/data_siap/docker-engine/containers/4e8e3b8c0254361797e7b61250aba88b2ab1f8a27e52c315e0c2c0f39b6f8f4a/resolv.conf",
+        "HostnamePath": "/data_siap/docker-engine/containers/4e8e3b8c0254361797e7b61250aba88b2ab1f8a27e52c315e0c2c0f39b6f8f4a/hostname",
+        "HostsPath": "/data_siap/docker-engine/containers/4e8e3b8c0254361797e7b61250aba88b2ab1f8a27e52c315e0c2c0f39b6f8f4a/hosts",
+        "LogPath": "/data_siap/docker-engine/containers/4e8e3b8c0254361797e7b61250aba88b2ab1f8a27e52c315e0c2c0f39b6f8f4a/4e8e3b8c0254361797e7b61250aba88b2ab1f8a27e52c315e0c2c0f39b6f8f4a-json.log",
+        "Name": "/portainer",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/var/run/docker.sock:/var/run/docker.sock:rw",
+                "/data_siap/docker_volumes/portainer_data:/data:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "host",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle",
+                "/sys/devices/system/cpu/cpu4/thermal_throttle",
+                "/sys/devices/system/cpu/cpu5/thermal_throttle",
+                "/sys/devices/system/cpu/cpu6/thermal_throttle",
+                "/sys/devices/system/cpu/cpu7/thermal_throttle",
+                "/sys/devices/system/cpu/cpu8/thermal_throttle",
+                "/sys/devices/system/cpu/cpu9/thermal_throttle",
+                "/sys/devices/system/cpu/cpu10/thermal_throttle",
+                "/sys/devices/system/cpu/cpu11/thermal_throttle",
+                "/sys/devices/system/cpu/cpu12/thermal_throttle",
+                "/sys/devices/system/cpu/cpu13/thermal_throttle",
+                "/sys/devices/system/cpu/cpu14/thermal_throttle",
+                "/sys/devices/system/cpu/cpu15/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/var/run/docker.sock",
+                "Destination": "/var/run/docker.sock",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/data_siap/docker_volumes/portainer_data",
+                "Destination": "/data",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "zabbix",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "8000/tcp": {},
+                "9000/tcp": {},
+                "9443/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": null,
+            "Image": "portainer/portainer-ee:latest",
+            "Volumes": {
+                "/data": {}
+            },
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "/portainer"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "0ac4ff6a23763c4449b6e3aa9f3f5ee8d4414526a7c5283bf3ec2812a573b0be",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:b6a67ff610577472a788d74cd0dfb55be8206d78014fdaed3e68054abea55b06",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "gestor_control",
+                "com.docker.compose.project.config_files": "/data_siap/docker/gestor_control/docker-compose.yaml",
+                "com.docker.compose.project.working_dir": "/data_siap/docker/gestor_control",
+                "com.docker.compose.replace": "portainer",
+                "com.docker.compose.service": "portainer",
+                "com.docker.compose.version": "5.1.0",
+                "git_commit": "c57526d",
+                "io.portainer.server": "true",
+                "org.opencontainers.image.created": "2026-08-12T23:10:43Z",
+                "org.opencontainers.image.description": "Portainer Business Edition server.",
+                "org.opencontainers.image.documentation": "https://docs.portainer.io",
+                "org.opencontainers.image.revision": "c57526d",
+                "org.opencontainers.image.title": "Portainer EE",
+                "org.opencontainers.image.url": "https://www.portainer.io",
+                "org.opencontainers.image.vendor": "Portainer.io"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "662c5028b0d50ed0db58234b76e25b10cdf85d4e2da89f49f2d92db94b6d2a42",
+            "SandboxKey": "/var/run/docker/netns/default",
+            "Ports": {},
+            "Networks": {
+                "host": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "dcae96890d88f967ffc1c2e1a77ddc974b021cd344c34f9dd954f5c74d370620",
+                    "EndpointID": "c2bacadd2217c78f3e3afe8014ce5345e3b0bb936a9abf031c09a78c84cc341b",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "MacAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:ea3de2a44482344b3dee38feaee171d45a320fb1ba99e3e38041455d0ace157b",
+            "size": 1618,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

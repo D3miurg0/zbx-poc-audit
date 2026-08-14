@@ -1,0 +1,15 @@
+CONTAINER ID   IMAGE                                            COMMAND                  CREATED        STATUS                          PORTS                                         NAMES
+4e8e3b8c0254   portainer/portainer-ee:latest                    "/portainer"             37 hours ago   Up 13 minutes                                                                 portainer
+042ed21e0432   prom/prometheus:latest                           "/bin/prometheus --c…"   2 weeks ago    Up 13 minutes                                                                 prometheus_bridge
+b79f89e2f3b8   prom/graphite-exporter:latest                    "/bin/graphite_expor…"   5 weeks ago    Up 13 minutes                                                                 graphite_bridge
+e4b5e531ca33   prezhdarov/vmware-exporter:latest                "/bin/vmware-exporte…"   6 weeks ago    Up 13 minutes                                                                 prezhdarov_gdl
+2b7a76a526dc   prezhdarov/vmware-exporter:latest                "/bin/vmware-exporte…"   6 weeks ago    Up 13 minutes                                                                 prezhdarov_siap
+028590d38f85   jc21/nginx-proxy-manager:latest                  "/init"                  2 months ago   Up 13 minutes                                                                 nginx-proxy-manager
+2d6df1f5a2dd   ad_compliance_exporter-ad_compliance_exporter    "python ad_exporter.…"   3 months ago   Up 13 minutes (healthy)                                                       ad_compliance_exporter
+c9d29eeca63c   cblomart/vsphere-graphite:latest                 "/vsphere-graphite"      4 months ago   Restarting (1) 36 seconds ago                                                 cblomart_siap
+3b7c0191f569   containrrr/watchtower:latest                     "/watchtower"            4 months ago   Up 13 minutes (healthy)         8080/tcp                                      watchtower
+3054f2d14a28   pryorda/vmware_exporter:latest                   "/usr/local/bin/vmwa…"   5 months ago   Up 13 minutes                                                                 pryorda_siap
+c9d76759ad81   pryorda/vmware_exporter:latest                   "/usr/local/bin/vmwa…"   5 months ago   Up 13 minutes                                                                 pryorda_gdl
+f34cafa52534   prom/snmp-exporter                               "/bin/snmp_exporter …"   5 months ago   Up 13 minutes                   0.0.0.0:9116->9116/tcp, [::]:9116->9116/tcp   snmp_exporter
+74d737846f30   quay.io/purestorage/pure-fa-om-exporter:latest   "/pure-fa-om-exporte…"   5 months ago   Up 13 minutes                   0.0.0.0:9490->9490/tcp, [::]:9490->9490/tcp   pure_exporter
+b350f70521e2   louislam/dockge:latest                           "/usr/bin/dumb-init …"   5 months ago   Up 13 minutes (healthy)                                                       dockge

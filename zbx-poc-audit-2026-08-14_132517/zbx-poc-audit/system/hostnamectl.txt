@@ -1,0 +1,12 @@
+ Static hostname: zabbixsiap
+ Pretty hostname: zabbixsiap.gap.net
+       Icon name: computer-server
+         Chassis: server 🖳
+      Machine ID: a31c386e8d534493b33e47127c33ed7d
+         Boot ID: a94c705b4b264157a9f1c246ad342b42
+Operating System: AlmaLinux 9.8 (Olive Jaguar)
+     CPE OS Name: cpe:/o:almalinux:almalinux:9::baseos
+          Kernel: Linux 5.14.0-687.38.1.el9_8.x86_64
+    Architecture: x86-64
+  Hardware Model: 06XDD1
+Firmware Version: 2.25.0

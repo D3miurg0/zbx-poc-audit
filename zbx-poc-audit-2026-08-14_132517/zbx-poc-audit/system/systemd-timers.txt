@@ -1,0 +1,12 @@
+NEXT                        LEFT           LAST                        PASSED     UNIT                         ACTIVATES
+Fri 2026-08-14 13:26:10 CST 52s left       -                           -          systemd-tmpfiles-clean.timer systemd-tmpfiles-clean.service
+Fri 2026-08-14 13:30:00 CST 4min 41s left  Fri 2026-08-14 13:20:00 CST 5min ago   sysstat-collect.timer        sysstat-collect.service
+Fri 2026-08-14 13:59:44 CST 34min left     -                           -          dnf-makecache.timer          dnf-makecache.service
+Sat 2026-08-15 00:00:00 CST 10h left       Fri 2026-08-14 00:00:02 CST 13h ago    logrotate.timer              logrotate.service
+Sat 2026-08-15 00:00:00 CST 10h left       Fri 2026-08-14 00:00:02 CST 13h ago    mlocate-updatedb.timer       mlocate-updatedb.service
+Sat 2026-08-15 00:07:00 CST 10h left       -                           -          sysstat-summary.timer        sysstat-summary.service
+Sat 2026-08-15 00:58:34 CST 11h left       Sat 2026-08-08 00:38:06 CST 6 days ago dnf-automatic-install.timer  dnf-automatic-install.service
+Sun 2026-08-16 01:00:00 CST 1 day 11h left Sun 2026-08-09 01:00:08 CST 5 days ago raid-check.timer             raid-check.service
+-                           -              -                           -          mdadm-last-resort@md0.timer  mdadm-last-resort@md0.service
+
+9 timers listed.

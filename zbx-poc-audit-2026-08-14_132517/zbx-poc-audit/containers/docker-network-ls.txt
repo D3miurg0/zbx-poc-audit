@@ -1,0 +1,10 @@
+NETWORK ID     NAME                        DRIVER    SCOPE
+8508a0e4c040   bridge                      bridge    local
+dcae96890d88   host                        host      local
+d0493900382b   none                        null      local
+fa5f700e3f20   npm_default                 bridge    local
+e5a1cf3778a6   prometheus_bridge_default   bridge    local
+3fabeb374d69   siap_monitoring             bridge    local
+83c3208a9233   siap_network                bridge    local
+c94acb4ca8bc   vsphere_exporter_default    bridge    local
+85f0fb3abb4f   watchtower_default          bridge    local

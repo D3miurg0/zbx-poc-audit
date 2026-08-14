@@ -1,0 +1,18 @@
+default via 10.255.6.254 dev nm-bond2 proto static metric 10 
+default via 10.255.129.1 dev nm-bond129 proto static metric 300 
+default via 10.255.117.254 dev nm-bond128 proto static metric 301 
+10.42.0.0/24 via 10.42.0.0 dev flannel.1 onlink 
+10.42.1.0/24 dev cni0 proto kernel scope link src 10.42.1.1 
+10.223.117.254 via 10.255.117.254 dev nm-bond128 proto static metric 301 
+10.223.127.0/24 via 10.255.117.254 dev nm-bond128 proto static metric 301 
+10.255.6.0/24 dev nm-bond2 proto kernel scope link src 10.255.6.75 metric 10 
+10.255.117.0/24 dev nm-bond128 proto kernel scope link src 10.255.117.75 metric 301 
+10.255.127.0/24 via 10.255.117.254 dev nm-bond128 proto static metric 301 
+10.255.129.0/24 dev nm-bond129 proto kernel scope link src 10.255.129.75 metric 300 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+172.18.0.0/16 dev br-3fabeb374d69 proto kernel scope link src 172.18.0.1 linkdown 
+172.19.0.0/16 dev br-e5a1cf3778a6 proto kernel scope link src 172.19.0.1 
+172.20.0.0/16 dev br-83c3208a9233 proto kernel scope link src 172.20.0.1 linkdown 
+172.21.0.0/16 dev br-c94acb4ca8bc proto kernel scope link src 172.21.0.1 linkdown 
+172.22.0.0/16 dev br-85f0fb3abb4f proto kernel scope link src 172.22.0.1 
+172.23.0.0/16 dev br-fa5f700e3f20 proto kernel scope link src 172.23.0.1 linkdown 

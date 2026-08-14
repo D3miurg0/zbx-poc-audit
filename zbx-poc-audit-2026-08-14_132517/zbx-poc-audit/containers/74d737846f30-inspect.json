@@ -1,0 +1,258 @@
+[
+    {
+        "Id": "74d737846f305d0db437d72443bdd8b9a6cc54c460c116c7dafe9c805854b830",
+        "Created": "2026-03-06T16:54:12.972617004Z",
+        "Path": "/pure-fa-om-exporter",
+        "Args": [
+            "--address",
+            "0.0.0.0",
+            "--port",
+            "9490",
+            "--tokens",
+            "/etc/pure-fa-om-exporter/tokens.yaml"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 7500,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-08-14T19:11:35.490179233Z",
+            "FinishedAt": "2026-08-14T19:06:42.314699799Z"
+        },
+        "Image": "sha256:e1b3ad8737bc196c192c1ba180f0557638e1a5f2bc84efd761ee7a407879eb25",
+        "ResolvConfPath": "/data_siap/docker-engine/containers/74d737846f305d0db437d72443bdd8b9a6cc54c460c116c7dafe9c805854b830/resolv.conf",
+        "HostnamePath": "/data_siap/docker-engine/containers/74d737846f305d0db437d72443bdd8b9a6cc54c460c116c7dafe9c805854b830/hostname",
+        "HostsPath": "/data_siap/docker-engine/containers/74d737846f305d0db437d72443bdd8b9a6cc54c460c116c7dafe9c805854b830/hosts",
+        "LogPath": "/data_siap/docker-engine/containers/74d737846f305d0db437d72443bdd8b9a6cc54c460c116c7dafe9c805854b830/74d737846f305d0db437d72443bdd8b9a6cc54c460c116c7dafe9c805854b830-json.log",
+        "Name": "/pure_exporter",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "prometheus_bridge_default",
+            "PortBindings": {
+                "9490/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "9490"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle",
+                "/sys/devices/system/cpu/cpu4/thermal_throttle",
+                "/sys/devices/system/cpu/cpu5/thermal_throttle",
+                "/sys/devices/system/cpu/cpu6/thermal_throttle",
+                "/sys/devices/system/cpu/cpu7/thermal_throttle",
+                "/sys/devices/system/cpu/cpu8/thermal_throttle",
+                "/sys/devices/system/cpu/cpu9/thermal_throttle",
+                "/sys/devices/system/cpu/cpu10/thermal_throttle",
+                "/sys/devices/system/cpu/cpu11/thermal_throttle",
+                "/sys/devices/system/cpu/cpu12/thermal_throttle",
+                "/sys/devices/system/cpu/cpu13/thermal_throttle",
+                "/sys/devices/system/cpu/cpu14/thermal_throttle",
+                "/sys/devices/system/cpu/cpu15/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "74d737846f30",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "9490/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "--address",
+                "0.0.0.0",
+                "--port",
+                "9490",
+                "--tokens",
+                "/etc/pure-fa-om-exporter/tokens.yaml"
+            ],
+            "Image": "quay.io/purestorage/pure-fa-om-exporter:latest",
+            "Volumes": null,
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "/pure-fa-om-exporter"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "aeb2f06332034606e668975d7d49c27e2dbef6ca6d392c62c67118b66324c1ef",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:e1b3ad8737bc196c192c1ba180f0557638e1a5f2bc84efd761ee7a407879eb25",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "prometheus_bridge",
+                "com.docker.compose.project.config_files": "/data_siap/docker/prometheus_bridge/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/data_siap/docker/prometheus_bridge",
+                "com.docker.compose.service": "pure_exporter",
+                "com.docker.compose.version": "5.1.0"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "b6038c46f0510408712c3054240dd59ab098df6d20cadb5723cfcb6a53e4eecf",
+            "SandboxKey": "/var/run/docker/netns/b6038c46f051",
+            "Ports": {
+                "9490/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "9490"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "9490"
+                    }
+                ]
+            },
+            "Networks": {
+                "prometheus_bridge_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "pure_exporter",
+                        "pure_exporter"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "e5a1cf3778a6a6afbed9d64805999d81505351c43aae7a4ad78747e7ae21abb7",
+                    "EndpointID": "c00cfe1679d8f8add32eaf14ef4977d7583f891935d5c56e81941321990eaeca",
+                    "Gateway": "172.19.0.1",
+                    "IPAddress": "172.19.0.2",
+                    "MacAddress": "2e:8c:b5:2c:10:1c",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "pure_exporter",
+                        "74d737846f30"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:e1b3ad8737bc196c192c1ba180f0557638e1a5f2bc84efd761ee7a407879eb25",
+            "size": 1154,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

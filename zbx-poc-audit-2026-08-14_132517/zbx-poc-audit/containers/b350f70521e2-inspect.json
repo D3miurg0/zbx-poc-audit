@@ -1,0 +1,328 @@
+[
+    {
+        "Id": "b350f70521e22e3033a23ac0e7ac7333e44d848a871c33ff0866efb8341009a0",
+        "Created": "2026-03-05T21:43:11.487028912Z",
+        "Path": "/usr/bin/dumb-init",
+        "Args": [
+            "--",
+            "tsx",
+            "./backend/index.ts"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 7721,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-08-14T19:11:36.190232258Z",
+            "FinishedAt": "2026-08-14T19:06:44.44994223Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2026-08-14T13:21:00.309635881-06:00",
+                        "End": "2026-08-14T13:21:00.375186-06:00",
+                        "ExitCode": 0,
+                        "Output": "2026/08/14 19:21:00 Checking http://127.0.0.1:5001\n2026/08/14 19:21:00 Health Check OK [Res Code: 200]\n"
+                    },
+                    {
+                        "Start": "2026-08-14T13:22:00.376756568-06:00",
+                        "End": "2026-08-14T13:22:00.450120475-06:00",
+                        "ExitCode": 0,
+                        "Output": "2026/08/14 19:22:00 Checking http://127.0.0.1:5001\n2026/08/14 19:22:00 Health Check OK [Res Code: 200]\n"
+                    },
+                    {
+                        "Start": "2026-08-14T13:23:00.451361298-06:00",
+                        "End": "2026-08-14T13:23:00.518707708-06:00",
+                        "ExitCode": 0,
+                        "Output": "2026/08/14 19:23:00 Checking http://127.0.0.1:5001\n2026/08/14 19:23:00 Health Check OK [Res Code: 200]\n"
+                    },
+                    {
+                        "Start": "2026-08-14T13:24:00.519389668-06:00",
+                        "End": "2026-08-14T13:24:00.586771232-06:00",
+                        "ExitCode": 0,
+                        "Output": "2026/08/14 19:24:00 Checking http://127.0.0.1:5001\n2026/08/14 19:24:00 Health Check OK [Res Code: 200]\n"
+                    },
+                    {
+                        "Start": "2026-08-14T13:25:00.588860057-06:00",
+                        "End": "2026-08-14T13:25:00.653586949-06:00",
+                        "ExitCode": 0,
+                        "Output": "2026/08/14 19:25:00 Checking http://127.0.0.1:5001\n2026/08/14 19:25:00 Health Check OK [Res Code: 200]\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:335c6368b880ecc203236ed89e6e5232e0d6578e8ef5920e4a502390451502bf",
+        "ResolvConfPath": "/data_siap/docker-engine/containers/b350f70521e22e3033a23ac0e7ac7333e44d848a871c33ff0866efb8341009a0/resolv.conf",
+        "HostnamePath": "/data_siap/docker-engine/containers/b350f70521e22e3033a23ac0e7ac7333e44d848a871c33ff0866efb8341009a0/hostname",
+        "HostsPath": "/data_siap/docker-engine/containers/b350f70521e22e3033a23ac0e7ac7333e44d848a871c33ff0866efb8341009a0/hosts",
+        "LogPath": "/data_siap/docker-engine/containers/b350f70521e22e3033a23ac0e7ac7333e44d848a871c33ff0866efb8341009a0/b350f70521e22e3033a23ac0e7ac7333e44d848a871c33ff0866efb8341009a0-json.log",
+        "Name": "/dockge",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/var/run/docker.sock:/var/run/docker.sock:rw",
+                "/data_siap/docker:/data/stacks:rw",
+                "/data_siap/docker_volumes/dockge_data:/data:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "host",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "Mounts": [
+                {
+                    "Type": "volume",
+                    "Source": "b41919d8b697feeef5a9992450598f653d90ad452d69cc5dc4c8d9731ae9a12e",
+                    "Target": "/app/data"
+                }
+            ],
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle",
+                "/sys/devices/system/cpu/cpu4/thermal_throttle",
+                "/sys/devices/system/cpu/cpu5/thermal_throttle",
+                "/sys/devices/system/cpu/cpu6/thermal_throttle",
+                "/sys/devices/system/cpu/cpu7/thermal_throttle",
+                "/sys/devices/system/cpu/cpu8/thermal_throttle",
+                "/sys/devices/system/cpu/cpu9/thermal_throttle",
+                "/sys/devices/system/cpu/cpu10/thermal_throttle",
+                "/sys/devices/system/cpu/cpu11/thermal_throttle",
+                "/sys/devices/system/cpu/cpu12/thermal_throttle",
+                "/sys/devices/system/cpu/cpu13/thermal_throttle",
+                "/sys/devices/system/cpu/cpu14/thermal_throttle",
+                "/sys/devices/system/cpu/cpu15/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/var/run/docker.sock",
+                "Destination": "/var/run/docker.sock",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "volume",
+                "Name": "b41919d8b697feeef5a9992450598f653d90ad452d69cc5dc4c8d9731ae9a12e",
+                "Source": "/data_siap/docker-engine/volumes/b41919d8b697feeef5a9992450598f653d90ad452d69cc5dc4c8d9731ae9a12e/_data",
+                "Destination": "/app/data",
+                "Driver": "local",
+                "Mode": "z",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "bind",
+                "Source": "/data_siap/docker_volumes/dockge_data",
+                "Destination": "/data",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/data_siap/docker",
+                "Destination": "/data/stacks",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "zabbix",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "5001/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "DOCKGE_PORT=5001",
+                "DOCKGE_STACKS_DIR=/data/stacks",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NODE_VERSION=22.14.0",
+                "YARN_VERSION=1.22.22",
+                "UV_USE_IO_URING=0"
+            ],
+            "Cmd": [
+                "tsx",
+                "./backend/index.ts"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "extra/healthcheck"
+                ],
+                "Interval": 60000000000,
+                "Timeout": 30000000000,
+                "StartPeriod": 60000000000,
+                "Retries": 5
+            },
+            "Image": "louislam/dockge:latest",
+            "Volumes": {
+                "/app/data": {}
+            },
+            "WorkingDir": "/app",
+            "Entrypoint": [
+                "/usr/bin/dumb-init",
+                "--"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "44b0d441251a13d14d39897e8767a787dbaeed6db04c69c3d588c50bbcd10cae",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:335c6368b880ecc203236ed89e6e5232e0d6578e8ef5920e4a502390451502bf",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "gestor_control",
+                "com.docker.compose.project.config_files": "/data_siap/docker/gestor_control/docker-compose.yaml",
+                "com.docker.compose.project.working_dir": "/data_siap/docker/gestor_control",
+                "com.docker.compose.replace": "dockge",
+                "com.docker.compose.service": "dockge",
+                "com.docker.compose.version": "5.1.0"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "91f36335b6cd4670ce74c3304e2e132af6385e0b1b3f1dc4c180565c9da3c95e",
+            "SandboxKey": "/var/run/docker/netns/default",
+            "Ports": {},
+            "Networks": {
+                "host": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "dcae96890d88f967ffc1c2e1a77ddc974b021cd344c34f9dd954f5c74d370620",
+                    "EndpointID": "4c06bd1c2342ce569e41fde46fa8d70f55b22ca5f5e035c619ab39be5ab041a6",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "MacAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:edee39b74f238378ebfe0d9d12b3833f9d1e123aea9dfaf5149ad45c9afe2527",
+            "size": 2390,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

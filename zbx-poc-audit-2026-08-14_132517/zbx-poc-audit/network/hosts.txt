@@ -1,0 +1,5 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+10.255.129.110 siap-ps01.gap.net
+10.255.129.113 siap-ps02.gap.net
+10.255.6.75 zabbix

@@ -1,0 +1,13 @@
+IMAGE                                                  ID             DISK USAGE   CONTENT SIZE   EXTRA
+ad_compliance_exporter-ad_compliance_exporter:latest   b9bc64d25ed1        204MB         50.2MB   U    
+cblomart/vsphere-graphite:latest                       bdb663ea0295       13.1MB         6.35MB   U    
+containrrr/watchtower:latest                           6dd50763bbd6       22.3MB         5.64MB   U    
+jc21/nginx-proxy-manager:latest                        52b2c59994f3       1.77GB          453MB   U    
+louislam/dockge:latest                                 335c6368b880       1.14GB          264MB   U    
+portainer/portainer-ee:latest                          00c8114f44e2        268MB         58.8MB   U    
+prezhdarov/vmware-exporter:latest                      585089ff03eb       47.2MB         13.7MB   U    
+prom/graphite-exporter:latest                          c1a266f63a84       32.9MB         10.8MB   U    
+prom/prometheus:latest                                 508729e0e2d1        358MB          107MB   U    
+prom/snmp-exporter:latest                              e5fd5e8b43ac       35.4MB         11.1MB   U    
+pryorda/vmware_exporter:latest                         79925e63e59f        192MB         51.6MB   U    
+quay.io/purestorage/pure-fa-om-exporter:latest         e1b3ad8737bc       35.4MB         11.8MB   U    

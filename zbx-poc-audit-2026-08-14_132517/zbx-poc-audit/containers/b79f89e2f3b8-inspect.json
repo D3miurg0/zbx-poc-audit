@@ -1,0 +1,237 @@
+[
+    {
+        "Id": "b79f89e2f3b819d49c305d2c2fb00faf924298e3e757c1e873132ff507dce61b",
+        "Created": "2026-07-10T17:04:05.69021432Z",
+        "Path": "/bin/graphite_exporter",
+        "Args": [],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 7675,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-08-14T19:11:35.892359963Z",
+            "FinishedAt": "2026-08-14T19:06:42.272999218Z"
+        },
+        "Image": "sha256:c1a266f63a84fd11048ab6ad1552a4c497b14522d02823925247698e41eeac2b",
+        "ResolvConfPath": "/data_siap/docker-engine/containers/b79f89e2f3b819d49c305d2c2fb00faf924298e3e757c1e873132ff507dce61b/resolv.conf",
+        "HostnamePath": "/data_siap/docker-engine/containers/b79f89e2f3b819d49c305d2c2fb00faf924298e3e757c1e873132ff507dce61b/hostname",
+        "HostsPath": "/data_siap/docker-engine/containers/b79f89e2f3b819d49c305d2c2fb00faf924298e3e757c1e873132ff507dce61b/hosts",
+        "LogPath": "/data_siap/docker-engine/containers/b79f89e2f3b819d49c305d2c2fb00faf924298e3e757c1e873132ff507dce61b/b79f89e2f3b819d49c305d2c2fb00faf924298e3e757c1e873132ff507dce61b-json.log",
+        "Name": "/graphite_bridge",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "host",
+            "PortBindings": {
+                "2003/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "2003"
+                    }
+                ],
+                "9108/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "9108"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle",
+                "/sys/devices/system/cpu/cpu4/thermal_throttle",
+                "/sys/devices/system/cpu/cpu5/thermal_throttle",
+                "/sys/devices/system/cpu/cpu6/thermal_throttle",
+                "/sys/devices/system/cpu/cpu7/thermal_throttle",
+                "/sys/devices/system/cpu/cpu8/thermal_throttle",
+                "/sys/devices/system/cpu/cpu9/thermal_throttle",
+                "/sys/devices/system/cpu/cpu10/thermal_throttle",
+                "/sys/devices/system/cpu/cpu11/thermal_throttle",
+                "/sys/devices/system/cpu/cpu12/thermal_throttle",
+                "/sys/devices/system/cpu/cpu13/thermal_throttle",
+                "/sys/devices/system/cpu/cpu14/thermal_throttle",
+                "/sys/devices/system/cpu/cpu15/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "zabbix",
+            "Domainname": "",
+            "User": "nobody",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "2003/tcp": {},
+                "9108/tcp": {},
+                "9109/tcp": {},
+                "9109/udp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": null,
+            "Image": "prom/graphite-exporter:latest",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/bin/graphite_exporter"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "81c7508d06c2bd9d69a3357a5aa905c54f82797f486c31a5732089eda0b4e5f3",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:e54bca6645ea8a9e8c52312a8540de98ad08819d38476c021d77a0eae75bc797",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "vsphere_exporter",
+                "com.docker.compose.project.config_files": "/data_siap/docker/vsphere_exporter/docker-compose.yaml",
+                "com.docker.compose.project.working_dir": "/data_siap/docker/vsphere_exporter",
+                "com.docker.compose.service": "graphite_bridge",
+                "com.docker.compose.version": "5.1.0",
+                "maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "5fa1d838b5f4f3f985d76a327cc5eb9d9598a92e193c03de759325e43be1e58d",
+            "SandboxKey": "/var/run/docker/netns/default",
+            "Ports": {},
+            "Networks": {
+                "host": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "dcae96890d88f967ffc1c2e1a77ddc974b021cd344c34f9dd954f5c74d370620",
+                    "EndpointID": "d161928993ae3132fcdbcbca44beadb7b9a97321f7720db36dd67101fe108723",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "MacAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:d90b8528fb5b56246b326fd283a1564ef5558d909d8e8b7e1c9ce0b981b9f7c9",
+            "size": 948,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

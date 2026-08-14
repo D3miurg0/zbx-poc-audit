@@ -1,0 +1,39 @@
+/etc/httpd/conf/httpd.conf:37:# Listen: Allows you to bind Apache to specific IP addresses and/or
+/etc/httpd/conf/httpd.conf:38:# ports, instead of the default. See also the <VirtualHost>
+/etc/httpd/conf/httpd.conf:41:# Change this to Listen on a specific IP address, but note that if
+/etc/httpd/conf/httpd.conf:46:#Listen 12.34.56.78:80
+/etc/httpd/conf/httpd.conf:47:Listen 80
+/etc/httpd/conf/httpd.conf:78:# <VirtualHost> definition.  These values also provide defaults for
+/etc/httpd/conf/httpd.conf:79:# any <VirtualHost> containers you may define later in the file.
+/etc/httpd/conf/httpd.conf:81:# All of these directives may appear inside <VirtualHost> containers,
+/etc/httpd/conf/httpd.conf:182:# If you do not specify an ErrorLog directive within a <VirtualHost>
+/etc/httpd/conf/httpd.conf:184:# logged here.  If you *do* define an error logfile for a <VirtualHost>
+/etc/httpd/conf/httpd.conf:211:    # If you do not define any access logfiles within a <VirtualHost>
+/etc/httpd/conf/httpd.conf:213:    # define per-<VirtualHost> access logfiles, transactions will be
+/etc/nginx/conf.d/zabbix.conf:2:    listen 8080; # Puerto alterno para que NPM se conecte aquí
+/etc/nginx/conf.d/zabbix.conf:3:    server_name _;
+/etc/nginx/fastcgi.conf:23:fastcgi_param  SERVER_NAME        $server_name;
+/etc/nginx/fastcgi.conf.default:23:fastcgi_param  SERVER_NAME        $server_name;
+/etc/nginx/fastcgi_params:22:fastcgi_param  SERVER_NAME        $server_name;
+/etc/nginx/fastcgi_params.default:22:fastcgi_param  SERVER_NAME        $server_name;
+/etc/nginx/nginx.conf:39:        listen       8081;
+/etc/nginx/nginx.conf:40:        listen       [::]:8081;
+/etc/nginx/nginx.conf:41:        listen       8080;
+/etc/nginx/nginx.conf:42:        listen       [::]:8080;
+/etc/nginx/nginx.conf:43:        server_name  _;
+/etc/nginx/nginx.conf:61:#        listen       443 ssl http2;
+/etc/nginx/nginx.conf:62:#        listen       [::]:443 ssl http2;
+/etc/nginx/nginx.conf:63:#        server_name  _;
+/etc/nginx/nginx.conf.default:36:        listen       80;
+/etc/nginx/nginx.conf.default:37:        server_name  localhost;
+/etc/nginx/nginx.conf.default:57:        # proxy the PHP scripts to Apache listening on 127.0.0.1:80
+/etc/nginx/nginx.conf.default:63:        # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+/etc/nginx/nginx.conf.default:85:    #    listen       8000;
+/etc/nginx/nginx.conf.default:86:    #    listen       somename:8080;
+/etc/nginx/nginx.conf.default:87:    #    server_name  somename  alias  another.alias;
+/etc/nginx/nginx.conf.default:99:    #    listen       443 ssl;
+/etc/nginx/nginx.conf.default:100:    #    server_name  localhost;
+/etc/nginx/scgi_params:17:scgi_param  SERVER_NAME        $server_name;
+/etc/nginx/scgi_params.default:17:scgi_param  SERVER_NAME        $server_name;
+/etc/nginx/uwsgi_params:17:uwsgi_param  SERVER_NAME        $server_name;
+/etc/nginx/uwsgi_params.default:17:uwsgi_param  SERVER_NAME        $server_name;

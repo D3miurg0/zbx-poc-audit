@@ -1,0 +1,287 @@
+[
+    {
+        "Id": "3b7c0191f5699cd10545441f8230faf25cc81fcd1c64aa0b18402bfb50f7dcad",
+        "Created": "2026-03-30T17:23:29.494228343Z",
+        "Path": "/watchtower",
+        "Args": [],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 7460,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-08-14T19:11:35.423216468Z",
+            "FinishedAt": "2026-08-14T19:06:42.24026451Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2026-08-14T13:23:13.674758535-06:00",
+                        "End": "2026-08-14T13:23:13.741875055-06:00",
+                        "ExitCode": 0,
+                        "Output": ""
+                    },
+                    {
+                        "Start": "2026-08-14T13:23:43.742491324-06:00",
+                        "End": "2026-08-14T13:23:43.811893129-06:00",
+                        "ExitCode": 0,
+                        "Output": ""
+                    },
+                    {
+                        "Start": "2026-08-14T13:24:13.813279504-06:00",
+                        "End": "2026-08-14T13:24:13.879915442-06:00",
+                        "ExitCode": 0,
+                        "Output": ""
+                    },
+                    {
+                        "Start": "2026-08-14T13:24:43.8813286-06:00",
+                        "End": "2026-08-14T13:24:43.951136881-06:00",
+                        "ExitCode": 0,
+                        "Output": ""
+                    },
+                    {
+                        "Start": "2026-08-14T13:25:13.952107414-06:00",
+                        "End": "2026-08-14T13:25:14.019235966-06:00",
+                        "ExitCode": 0,
+                        "Output": ""
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:6dd50763bbd632a83cb154d5451700530d1e44200b268a4e9488fefdfcf2b038",
+        "ResolvConfPath": "/data_siap/docker-engine/containers/3b7c0191f5699cd10545441f8230faf25cc81fcd1c64aa0b18402bfb50f7dcad/resolv.conf",
+        "HostnamePath": "/data_siap/docker-engine/containers/3b7c0191f5699cd10545441f8230faf25cc81fcd1c64aa0b18402bfb50f7dcad/hostname",
+        "HostsPath": "/data_siap/docker-engine/containers/3b7c0191f5699cd10545441f8230faf25cc81fcd1c64aa0b18402bfb50f7dcad/hosts",
+        "LogPath": "/data_siap/docker-engine/containers/3b7c0191f5699cd10545441f8230faf25cc81fcd1c64aa0b18402bfb50f7dcad/3b7c0191f5699cd10545441f8230faf25cc81fcd1c64aa0b18402bfb50f7dcad-json.log",
+        "Name": "/watchtower",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/var/run/docker.sock:/var/run/docker.sock:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "watchtower_default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle",
+                "/sys/devices/system/cpu/cpu4/thermal_throttle",
+                "/sys/devices/system/cpu/cpu5/thermal_throttle",
+                "/sys/devices/system/cpu/cpu6/thermal_throttle",
+                "/sys/devices/system/cpu/cpu7/thermal_throttle",
+                "/sys/devices/system/cpu/cpu8/thermal_throttle",
+                "/sys/devices/system/cpu/cpu9/thermal_throttle",
+                "/sys/devices/system/cpu/cpu10/thermal_throttle",
+                "/sys/devices/system/cpu/cpu11/thermal_throttle",
+                "/sys/devices/system/cpu/cpu12/thermal_throttle",
+                "/sys/devices/system/cpu/cpu13/thermal_throttle",
+                "/sys/devices/system/cpu/cpu14/thermal_throttle",
+                "/sys/devices/system/cpu/cpu15/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/var/run/docker.sock",
+                "Destination": "/var/run/docker.sock",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "3b7c0191f569",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "8080/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "WATCHTOWER_INCLUDE_STOPPED=false",
+                "DOCKER_API_VERSION=1.54",
+                "WATCHTOWER_POLL_INTERVAL=86400",
+                "WATCHTOWER_CLEANUP=true",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": null,
+            "Healthcheck": {
+                "Test": [
+                    "CMD",
+                    "/watchtower",
+                    "--health-check"
+                ]
+            },
+            "Image": "containrrr/watchtower:latest",
+            "Volumes": null,
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "/watchtower"
+            ],
+            "Labels": {
+                "com.centurylinklabs.watchtower": "true",
+                "com.docker.compose.config-hash": "881627ac99df6ef459fe546d2a09dd74854ffa403f52df917647c11d43c8f404",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:6dd50763bbd632a83cb154d5451700530d1e44200b268a4e9488fefdfcf2b038",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "watchtower",
+                "com.docker.compose.project.config_files": "/data_siap/docker/watchtower/docker-compose.yaml",
+                "com.docker.compose.project.working_dir": "/data_siap/docker/watchtower",
+                "com.docker.compose.service": "watchtower",
+                "com.docker.compose.version": "5.1.1"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "c8ddf093a493685ae1a84ae3b91182d273d9c554709a16966659279f90eab865",
+            "SandboxKey": "/var/run/docker/netns/c8ddf093a493",
+            "Ports": {
+                "8080/tcp": null
+            },
+            "Networks": {
+                "watchtower_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "watchtower",
+                        "watchtower"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "85f0fb3abb4f16fbb4f0081b8ae0028fb5d49d1daa80039de91cbed7e9635645",
+                    "EndpointID": "a737b7fadc22dac84181c4ec7da2cfac053f106ee1fdfd612e01c8955ac6b93f",
+                    "Gateway": "172.22.0.1",
+                    "IPAddress": "172.22.0.2",
+                    "MacAddress": "0a:d4:e3:61:c1:f5",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "watchtower",
+                        "3b7c0191f569"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:f9086bfda061100361fc2bacf069585678d760d705cf390918ccdbda8a00980b",
+            "size": 948,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

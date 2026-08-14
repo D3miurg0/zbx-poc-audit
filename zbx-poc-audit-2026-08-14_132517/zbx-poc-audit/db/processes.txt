@@ -1,0 +1,40 @@
+postgres    3363  0.1  0.0 273881892 17544 ?     Ss   13:11   0:01 /usr/pgsql-16/bin/postgres -D /mnt/zabbix/storage/pgsql
+postgres    4177  0.0  0.0  68356  6888 ?        Ss   13:11   0:00 postgres: logger 
+postgres    4383  0.0  0.0 273882032 6880 ?      Ss   13:11   0:00 postgres: checkpointer 
+postgres    4384  0.1  0.0 273882024 7004 ?      Ss   13:11   0:01 postgres: background writer 
+postgres    4760  0.0  0.0 273882024 6996 ?      Ss   13:11   0:00 postgres: walwriter 
+postgres    4762  0.0  0.0 273883472 9488 ?      Ss   13:11   0:00 postgres: autovacuum launcher 
+postgres    4763  0.0  0.0 273883520 10360 ?     Ss   13:11   0:00 postgres: TimescaleDB Background Worker Launcher 
+postgres    4764  0.0  0.0 273883484 9052 ?      Ss   13:11   0:00 postgres: logical replication launcher 
+postgres    4861  0.0  0.0 273886144 14592 ?     Ss   13:11   0:00 postgres: TimescaleDB Background Worker Scheduler for database 24577 
+postgres    6675  0.0  0.0 273886852 18896 ?     Ss   13:11   0:00 postgres: zabbix zabbix ::1(60908) idle
+postgres    7620  0.0  0.0 273886332 17636 ?     Ss   13:11   0:00 postgres: zabbix zabbix ::1(60912) idle
+postgres    7621  1.0  0.0 273888920 20200 ?     Ss   13:11   0:08 postgres: zabbix zabbix ::1(60918) idle
+postgres   11039  0.0  0.0 273885620 16404 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48074) idle
+postgres   11047  0.9  0.0 273894216 25312 ?     Ss   13:12   0:07 postgres: zabbix zabbix ::1(48080) idle
+postgres   11050  1.0  0.0 273894216 25220 ?     Ss   13:12   0:08 postgres: zabbix zabbix ::1(48082) idle
+postgres   11054  0.0  0.0 273886364 17652 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48092) idle
+postgres   11056  0.0  0.0 273885612 16336 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48096) idle
+postgres   11063  0.6  0.0 273888992 20764 ?     Ss   13:12   0:05 postgres: zabbix zabbix ::1(48112) idle
+postgres   11067  0.5  0.0 273888144 20192 ?     Ss   13:12   0:04 postgres: zabbix zabbix ::1(48116) idle
+postgres   11069  0.6  0.0 273891252 21428 ?     Ss   13:12   0:04 postgres: zabbix zabbix ::1(48118) idle
+postgres   11071  1.8  0.0 273889156 21244 ?     Ss   13:12   0:14 postgres: zabbix zabbix ::1(48120) idle
+postgres   11077  0.0  0.0 273886336 17228 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48128) idle
+postgres   11080  0.0  0.0 273885612 16340 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48140) idle
+postgres   11088  0.0  0.0 273886336 17168 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48156) idle
+postgres   11105  0.0  0.0 273885612 16348 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48166) idle
+postgres   11108  0.0  0.0 273885612 16348 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48172) idle
+postgres   11110  0.0  0.0 273885620 16352 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48178) idle
+postgres   11111  0.0  0.0 273885620 16352 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48188) idle
+postgres   11113  0.0  0.0 273885620 16352 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48192) idle
+postgres   11120  0.0  0.0 273885620 16352 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48200) idle
+postgres   11242  0.0  0.0 273886720 18044 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48212) idle
+postgres   11245  0.0  0.0 273889716 21248 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48234) idle
+postgres   11246  0.0  0.0 273886420 17396 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48220) idle
+postgres   11247  0.0  0.0 273889720 21220 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48248) idle
+postgres   11248  0.0  0.0 273889716 21160 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48260) idle
+postgres   11251  0.0  0.0 273889716 21252 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48264) idle
+postgres   11252  0.0  0.0 273886904 18208 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48274) idle
+postgres   11253  0.0  0.0 273886468 17632 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48278) idle
+postgres   11255  0.0  0.0 273886656 17884 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48282) idle
+postgres   11256  0.0  0.0 273889716 21260 ?     Ss   13:12   0:00 postgres: zabbix zabbix ::1(48296) idle

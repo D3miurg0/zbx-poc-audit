@@ -1,0 +1,260 @@
+[
+    {
+        "Id": "f34cafa525346345d81cea5715d4d15d47891e4d98f5165fb4fa60d081b87ff9",
+        "Created": "2026-03-06T16:54:12.978653402Z",
+        "Path": "/bin/snmp_exporter",
+        "Args": [
+            "--config.file=/etc/snmp_exporter/snmp.yml"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 7591,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-08-14T19:11:35.607452865Z",
+            "FinishedAt": "2026-08-14T19:06:42.271714849Z"
+        },
+        "Image": "sha256:e5fd5e8b43ace6c088fe9bf0b37b7fff0e04380bee352be7ec41b853a4dd5859",
+        "ResolvConfPath": "/data_siap/docker-engine/containers/f34cafa525346345d81cea5715d4d15d47891e4d98f5165fb4fa60d081b87ff9/resolv.conf",
+        "HostnamePath": "/data_siap/docker-engine/containers/f34cafa525346345d81cea5715d4d15d47891e4d98f5165fb4fa60d081b87ff9/hostname",
+        "HostsPath": "/data_siap/docker-engine/containers/f34cafa525346345d81cea5715d4d15d47891e4d98f5165fb4fa60d081b87ff9/hosts",
+        "LogPath": "/data_siap/docker-engine/containers/f34cafa525346345d81cea5715d4d15d47891e4d98f5165fb4fa60d081b87ff9/f34cafa525346345d81cea5715d4d15d47891e4d98f5165fb4fa60d081b87ff9-json.log",
+        "Name": "/snmp_exporter",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/data_siap/docker/prometheus_bridge/snmp.yml:/etc/snmp_exporter/snmp.yml:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "prometheus_bridge_default",
+            "PortBindings": {
+                "9116/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "9116"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle",
+                "/sys/devices/system/cpu/cpu4/thermal_throttle",
+                "/sys/devices/system/cpu/cpu5/thermal_throttle",
+                "/sys/devices/system/cpu/cpu6/thermal_throttle",
+                "/sys/devices/system/cpu/cpu7/thermal_throttle",
+                "/sys/devices/system/cpu/cpu8/thermal_throttle",
+                "/sys/devices/system/cpu/cpu9/thermal_throttle",
+                "/sys/devices/system/cpu/cpu10/thermal_throttle",
+                "/sys/devices/system/cpu/cpu11/thermal_throttle",
+                "/sys/devices/system/cpu/cpu12/thermal_throttle",
+                "/sys/devices/system/cpu/cpu13/thermal_throttle",
+                "/sys/devices/system/cpu/cpu14/thermal_throttle",
+                "/sys/devices/system/cpu/cpu15/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/data_siap/docker/prometheus_bridge/snmp.yml",
+                "Destination": "/etc/snmp_exporter/snmp.yml",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "f34cafa52534",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "9116/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "--config.file=/etc/snmp_exporter/snmp.yml"
+            ],
+            "Image": "prom/snmp-exporter",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/bin/snmp_exporter"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "fb683c4a76b6af8e8dd914e2d81615d1d3eb2070faa633da31facb098495bc77",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:e5fd5e8b43ace6c088fe9bf0b37b7fff0e04380bee352be7ec41b853a4dd5859",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "prometheus_bridge",
+                "com.docker.compose.project.config_files": "/data_siap/docker/prometheus_bridge/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/data_siap/docker/prometheus_bridge",
+                "com.docker.compose.service": "snmp_exporter",
+                "com.docker.compose.version": "5.1.0",
+                "maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "2fc59784ee0fc0482255f866a415498a63ecffe48f6fe646a82dcb485d15ee56",
+            "SandboxKey": "/var/run/docker/netns/2fc59784ee0f",
+            "Ports": {
+                "9116/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "9116"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "9116"
+                    }
+                ]
+            },
+            "Networks": {
+                "prometheus_bridge_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "snmp_exporter",
+                        "snmp_exporter"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "e5a1cf3778a6a6afbed9d64805999d81505351c43aae7a4ad78747e7ae21abb7",
+                    "EndpointID": "ec979b34a2daf67efb96a28fd1dc2f9ae6d88c8f70c7c004ba9dddf22139bbcd",
+                    "Gateway": "172.19.0.1",
+                    "IPAddress": "172.19.0.3",
+                    "MacAddress": "96:c3:aa:ac:e3:21",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "snmp_exporter",
+                        "f34cafa52534"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:9ad5309a6deb7cbe94b7bc5e5dfa8db7b682c6a3c0fa7c029a7e827e505ef43c",
+            "size": 1573,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]
